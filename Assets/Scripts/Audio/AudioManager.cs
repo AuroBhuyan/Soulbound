@@ -2,48 +2,74 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static AudioManager Instance;
 
+    [Header("Audio Sources")]
     public AudioSource bgMusicSource;
     public AudioSource sfxSource;
+    public AudioSource cutsceneSource;
 
-    public AudioClip mainMenuMusic;
-    public AudioClip ominousMusic;
-    public AudioClip soulSuckSFX;
+    [Header("Audio Clips")]
+    public AudioClip bgMusic;
+    public AudioClip[] sfxClips;
+    public AudioClip[] cutsceneClips;
 
-    void Awake()
+    private void Awake()
     {
-        Debug.Log("Awake called on AudioManager");
-
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log("AudioManager Initialized and Marked as DontDestroyOnLoad");
         }
         else
         {
-            Debug.LogWarning("Duplicate AudioManager Destroyed");
             Destroy(gameObject);
+            return;
         }
+
+        // Assign AudioSources from child GameObjects
+        bgMusicSource = transform.Find("BGMusic").GetComponent<AudioSource>();
+        sfxSource = transform.Find("SFX").GetComponent<AudioSource>();
+        cutsceneSource = transform.Find("CutsceneAudio").GetComponent<AudioSource>();
     }
 
-    public void PlayMusic(AudioClip clip)
+    private void Start()
     {
-        if (bgMusicSource.clip != clip)
+        PlayBGMusic();
+    }
+
+    public void PlayBGMusic()
+    {
+        if (bgMusicSource && bgMusic)
         {
-            bgMusicSource.clip = clip;
+            bgMusicSource.clip = bgMusic;
+            bgMusicSource.loop = true;
             bgMusicSource.Play();
         }
     }
 
-    public void StopMusic()
+    public void PlaySFX(int index)
     {
-        bgMusicSource.Stop();
+        if (index >= 0 && index < sfxClips.Length)
+        {
+            sfxSource.PlayOneShot(sfxClips[index]);
+        }
     }
 
-    public void PlaySFX(AudioClip clip)
+    public void PlayCutsceneAudio(int index)
     {
-        sfxSource.PlayOneShot(clip);
+        if (index >= 0 && index < cutsceneClips.Length)
+        {
+            cutsceneSource.clip = cutsceneClips[index];
+            cutsceneSource.Play();
+        }
+    }
+
+    public void StopCutsceneAudio()
+    {
+        if (cutsceneSource.isPlaying)
+        {
+            cutsceneSource.Stop();
+        }
     }
 }
