@@ -17,6 +17,12 @@ public class PlayerMovement : MonoBehaviour
     public float crouchSpeed = 2.5f;
     private bool isCrouching = false;
 
+    // Climbing-related variables
+    public float climbSpeed = 3f;
+    private bool isClimbing = false;
+    private bool isNearLadder = false;
+    public LayerMask ladderLayer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,24 +35,31 @@ public class PlayerMovement : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        // Check crouch input
+       
         if (Input.GetKeyDown(KeyCode.C) && isGrounded)
         {
             ToggleCrouch();
         }
 
-        // Crouch movement
+       
         if (isCrouching)
         {
-            rb.linearVelocity = new Vector2(move * crouchSpeed, rb.linearVelocity.y);  // Move at crouch speed
+            rb.linearVelocity = new Vector2(move * crouchSpeed, rb.linearVelocity.y);  
+        }
+        else if (isClimbing)
+        {
+            
+            float verticalMovement = Input.GetAxisRaw("Vertical");
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, verticalMovement * climbSpeed);  
         }
         else
         {
-            rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);  // Move at normal speed
+           
+            rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y); 
         }
 
-        // Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isCrouching)
+       
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isCrouching && !isClimbing)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             anim.SetTrigger("Jump");
@@ -54,11 +67,31 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("isRunning", isGrounded && Mathf.Abs(move) > 0.1f);
 
-        // Flip the character based on movement direction
-        if (move > 0 && !facingRight)
-            Flip();
-        else if (move < 0 && facingRight)
-            Flip();
+        
+        if (!isClimbing)
+        {
+            if (move > 0 && !facingRight)
+                Flip();
+            else if (move < 0 && facingRight)
+                Flip();
+        }
+
+        
+        if (isNearLadder)
+        {
+            if (Input.GetKeyDown(KeyCode.W)) 
+            {
+                StartClimbing();
+            }
+            else if (Input.GetKeyDown(KeyCode.S)) 
+            {
+                StartClimbingDown();
+            }
+        }
+        else
+        {
+            StopClimbing();
+        }
     }
 
     private void Flip()
@@ -71,8 +104,49 @@ public class PlayerMovement : MonoBehaviour
     {
         isCrouching = !isCrouching;
 
-        // Trigger crouch animation without changing collider size
+        
         anim.SetBool("isCrouching", isCrouching);
+    }
+
+    private void StartClimbing()
+    {
+        isClimbing = true;
+        rb.gravityScale = 0; 
+        anim.SetBool("isClimbing", true); 
+    }
+
+    private void StartClimbingDown()
+    {
+        isClimbing = true;
+        rb.gravityScale = 0; 
+        anim.SetBool("isClimbing", true); 
+    }
+
+    private void StopClimbing()
+    {
+        if (isClimbing)
+        {
+            isClimbing = false;
+            rb.gravityScale = 1; 
+            anim.SetBool("isClimbing", false); 
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isNearLadder = true; 
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Ladder"))
+        {
+            isNearLadder = false; 
+            StopClimbing();
+        }
     }
 
     private void OnDrawGizmos()
