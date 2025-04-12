@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: c9ffe28e5e634384daf7575a38ed8c8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1940292181792136686
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_0
+  - first:
+      213: -7144042471520167863
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_1
+  - first:
+      213: -242739496609477334
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_2
+  - first:
+      213: -2787422656406380617
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_3
+  - first:
+      213: -8821840526762142562
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_4
+  - first:
+      213: 2350428093552128880
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_5
+  - first:
+      213: 6068966216837611912
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_6
+  - first:
+      213: 6661130283277711847
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_7
+  - first:
+      213: 3408782148614827257
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_8
+  - first:
+      213: 6871491022747170614
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_9
+  - first:
+      213: 8222986393429877350
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_10
+  - first:
+      213: 4119972969990322034
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_11
+  - first:
+      213: 1673182986889483513
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_12
+  - first:
+      213: -3601082163757828591
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_13
+  - first:
+      213: 7483956238566544263
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_14
+  - first:
+      213: 5468391008734014336
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_15
+  - first:
+      213: -5693000263099849889
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_16
+  - first:
+      213: -23403524561588725
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_17
+  - first:
+      213: 4266832100600841810
+    second: jungle-game-stone-ui-frame-cartoon-vector-icon_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 504
+        width: 476
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed1030957d4dea10800000000000000
+      internalID: 1940292181792136686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 41
+        width: 128
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9489cb019334bdc90800000000000000
+      internalID: -7144042471520167863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_2
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 424
+        width: 405
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d82a3c6bd91acf0800000000000000
+      internalID: -242739496609477334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_3
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 424
+        width: 405
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf9506ccd51159d0800000000000000
+      internalID: -2787422656406380617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_4
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 423
+        width: 405
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e949231f7c6829580800000000000000
+      internalID: -8821840526762142562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 353
+        width: 476
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073f542e5e56e9020800000000000000
+      internalID: 2350428093552128880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 258
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881c3749e9c493450800000000000000
+      internalID: 6068966216837611912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 259
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e97d5153b6117c50800000000000000
+      internalID: 6661130283277711847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 263
+        width: 170
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc21ecbd4d6e4f20800000000000000
+      internalID: 3408782148614827257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_9
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 263
+        width: 170
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6377120bda07c5f50800000000000000
+      internalID: 6871491022747170614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_10
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 252
+        width: 450
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662224dbe8aed1270800000000000000
+      internalID: 8222986393429877350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 202
+        width: 482
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fb7076951d2930800000000000000
+      internalID: 4119972969990322034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_12
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 41
+        width: 606
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f456c9cf07583710800000000000000
+      internalID: 1673182986889483513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_13
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 254
+        width: 105
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1163836f9d2660ec0800000000000000
+      internalID: -3601082163757828591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 50
+        width: 482
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783d35a1c8a5cd760800000000000000
+      internalID: 7483956238566544263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_15
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 102
+        width: 146
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08be78056a0a3eb40800000000000000
+      internalID: 5468391008734014336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_16
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 102
+        width: 146
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f536abb6c666ef0b0800000000000000
+      internalID: -5693000263099849889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_17
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 102
+        width: 145
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ea3005e9adcaff0800000000000000
+      internalID: -23403524561588725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle-game-stone-ui-frame-cartoon-vector-icon_18
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 159
+        width: 106
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2560c885035d63b30800000000000000
+      internalID: 4266832100600841810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jungle-game-stone-ui-frame-cartoon-vector-icon_0: 1940292181792136686
+      jungle-game-stone-ui-frame-cartoon-vector-icon_1: -7144042471520167863
+      jungle-game-stone-ui-frame-cartoon-vector-icon_10: 8222986393429877350
+      jungle-game-stone-ui-frame-cartoon-vector-icon_11: 4119972969990322034
+      jungle-game-stone-ui-frame-cartoon-vector-icon_12: 1673182986889483513
+      jungle-game-stone-ui-frame-cartoon-vector-icon_13: -3601082163757828591
+      jungle-game-stone-ui-frame-cartoon-vector-icon_14: 7483956238566544263
+      jungle-game-stone-ui-frame-cartoon-vector-icon_15: 5468391008734014336
+      jungle-game-stone-ui-frame-cartoon-vector-icon_16: -5693000263099849889
+      jungle-game-stone-ui-frame-cartoon-vector-icon_17: -23403524561588725
+      jungle-game-stone-ui-frame-cartoon-vector-icon_18: 4266832100600841810
+      jungle-game-stone-ui-frame-cartoon-vector-icon_2: -242739496609477334
+      jungle-game-stone-ui-frame-cartoon-vector-icon_3: -2787422656406380617
+      jungle-game-stone-ui-frame-cartoon-vector-icon_4: -8821840526762142562
+      jungle-game-stone-ui-frame-cartoon-vector-icon_5: 2350428093552128880
+      jungle-game-stone-ui-frame-cartoon-vector-icon_6: 6068966216837611912
+      jungle-game-stone-ui-frame-cartoon-vector-icon_7: 6661130283277711847
+      jungle-game-stone-ui-frame-cartoon-vector-icon_8: 3408782148614827257
+      jungle-game-stone-ui-frame-cartoon-vector-icon_9: 6871491022747170614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
