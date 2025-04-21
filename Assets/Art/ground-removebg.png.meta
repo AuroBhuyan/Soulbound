@@ -298,7 +298,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ground-removebg_0: -4372163571052343548
+      ground-removebg_1: 3376330762349370945
+      ground-removebg_2: -9166208274394175681
+      ground-removebg_3: 2803426232657848206
+      ground-removebg_4: -4078976600771573743
+      ground-removebg_5: -3489144353018494994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

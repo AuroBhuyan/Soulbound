@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel-moss-mushrooms-fallen-logs-ferns-pixel-ground-with-moss-covering-earth-mush-game-assetr_1020495-881362_0: -5383106493984335565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

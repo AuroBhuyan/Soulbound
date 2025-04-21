@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      8bit-arcade-pixel-art-game-brick-platforms-set_8071-60842_0: 4547525342864724947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
