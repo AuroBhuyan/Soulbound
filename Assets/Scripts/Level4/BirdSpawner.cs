@@ -29,7 +29,7 @@ public class BirdSpawner : MonoBehaviour
             new Vector3(Camera.main.transform.position.x - 12f, y, 0) :
             new Vector3(Camera.main.transform.position.x + 12f, y, 0);
 
-        GameObject bird = Instantiate(bi rdPrefab, spawnPos, Quaternion.identity);
+        GameObject bird = Instantiate(birdPrefab, spawnPos, Quaternion.identity);
 
         // Flip sprite if flying left
         if (!fromLeft)
