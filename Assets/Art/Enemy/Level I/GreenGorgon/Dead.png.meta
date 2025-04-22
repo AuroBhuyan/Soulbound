@@ -224,15 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream:Assets/Art/Enemy/Level I/GreenGorgon/Dead.png.meta
       Dead_0: 2649847697073447219
       Dead_1: -8293461521501190705
       Dead_2: -1631342717326862633
-=======
-      Hurt_0: -2048800907179887802
-      Hurt_1: 490842205202310979
-      Hurt_2: -3720053754089064719
->>>>>>> Stashed changes:Assets/Art/Enemy/Fire vizard/Hurt.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

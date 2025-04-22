@@ -349,7 +349,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream:Assets/Art/Enemy/DarkGorgon/Attack_2.png.meta
       Attack_2_0: -837275676153275556
       Attack_2_1: -8404040051688745268
       Attack_2_2: -3526194569594660169
@@ -358,16 +357,6 @@ TextureImporter:
       Attack_2_5: 3517966781153112992
       Attack_2_6: -7018801485362641992
       Attack_2_7: -4083314108108747639
-=======
-      Golem_1_idle_0: 3641206842415056288
-      Golem_1_idle_1: -5346422617274557279
-      Golem_1_idle_2: -4050087436769753263
-      Golem_1_idle_3: -6050510017157607022
-      Golem_1_idle_4: -3526272731087257150
-      Golem_1_idle_5: -106065556061340719
-      Golem_1_idle_6: 6968488508171074597
-      Golem_1_idle_7: 7786588115404116445
->>>>>>> Stashed changes:Assets/Art/Enemy/Golem_1/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

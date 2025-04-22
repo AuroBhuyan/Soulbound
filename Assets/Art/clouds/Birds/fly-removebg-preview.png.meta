@@ -298,7 +298,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fly-removebg-preview_0: -2443628681781826213
+      fly-removebg-preview_1: -1524941391969551652
+      fly-removebg-preview_2: -8507433746987020306
+      fly-removebg-preview_3: 6240444054713409007
+      fly-removebg-preview_4: 8755345107012017342
+      fly-removebg-preview_5: -6727908831779129410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -20,4 +20,5 @@ public class PlatformMovementV : MonoBehaviour
         // Apply the new position
         transform.position = new Vector3(startPos.x, newY, startPos.z);
     }
+    
 }

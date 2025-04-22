@@ -398,7 +398,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blue-bird-flying-removebg-preview_0: 5700581235977222540
+      blue-bird-flying-removebg-preview_1: 5616575861475957991
+      blue-bird-flying-removebg-preview_2: 7794537876662193719
+      blue-bird-flying-removebg-preview_3: 7991469829775055719
+      blue-bird-flying-removebg-preview_4: 2603163043601868000
+      blue-bird-flying-removebg-preview_5: -1010639707882378035
+      blue-bird-flying-removebg-preview_6: 6521051732794364574
+      blue-bird-flying-removebg-preview_7: -282010371705185681
+      blue-bird-flying-removebg-preview_8: -253309916967402543
+      blue-bird-flying-removebg-preview_9: 523049738358039147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
