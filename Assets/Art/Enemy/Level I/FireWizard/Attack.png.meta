@@ -177,6 +177,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -219,7 +258,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 15a29dc9988924490800000000000000
-      internalID: -7763475090823894447
+      internalID: 302641331129538988
       vertices: []
       indices: 
       edges: []
@@ -241,7 +280,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ca9d35cefa2333400800000000000000
-      internalID: 302641331129538988
+      internalID: -910092549403018386
       vertices: []
       indices: 
       edges: []
@@ -263,7 +302,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: e6b7a10f5a3be53f0800000000000000
-      internalID: -910092549403018386
+      internalID: -7763475090823894447
       vertices: []
       indices: 
       edges: []
@@ -285,7 +324,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ffebd0cda1bafe0e0800000000000000
-      internalID: -2238382357930459393
+      internalID: -6329420634031446844
       vertices: []
       indices: 
       edges: []
@@ -307,7 +346,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ae8a29a0612ae4f40800000000000000
-      internalID: 5714683192730101994
+      internalID: 221524225039350300
       vertices: []
       indices: 
       edges: []
@@ -329,7 +368,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 1f2b581d1616487e0800000000000000
-      internalID: -1764178081267469583
+      internalID: 1290532464073988732
       vertices: []
       indices: 
       edges: []
@@ -351,7 +390,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 9405897a354e36600800000000000000
-      internalID: 460462634867118153
+      internalID: 4780903288873104255
       vertices: []
       indices: 
       edges: []
@@ -370,30 +409,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1: -910092549403018386
       Attack_0: -7008412969330441016
-      Attack_1: -910092549403018386
-      Attack_10: -4098942091326826159
-      Attack_11: -9192815492500660022
-      Attack_14: 967789818437793053
-      Attack_16: 3677593348458361963
-      Attack_18: -8097450822796382144
-      Attack_19: -7916165071839859959
-      Attack_2: -7763475090823894447
-      Attack_20: 5323006567862791825
-      Attack_21: 4874547320261154453
-      Attack_22: -2135509771054715489
-      Attack_23: 5289050447128901616
-      Attack_24: -3257436178398632492
-      Attack_25: -7886763478996549932
-      Attack_26: 2157678649479473423
-      Attack_27: 4162410773825762160
-      Attack_3: -2238382357930459393
-      Attack_4: 302641331129538988
-      Attack_5: 5714683192730101994
-      Attack_6: -1764178081267469583
-      Attack_7: 460462634867118153
-      Attack_9: -297473348006037033
+      Attack_1: -7763475090823894447
+      Attack_2: 302641331129538988
+      Attack_3: -6329420634031446844
+      Attack_4: -910092549403018386
+      Attack_5: 221524225039350300
+      Attack_6: 1290532464073988732
+      Attack_7: 4780903288873104255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
