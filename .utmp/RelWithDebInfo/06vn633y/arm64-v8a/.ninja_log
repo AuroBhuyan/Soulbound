@@ -1,0 +1,12 @@
+# ninja log v5
+22	4517	7678903538139486	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e0bfcef580ab22ff
+29	4637	7678903538604357	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e93ba1ea0ab7a81
+9	4683	7678903539996390	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	bbfc94cc9945dc50
+1	5147	7678903545237154	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	cbf4b2c4f6fada73
+4683	6000	7678903552447622	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	6f2b9e50d6fb6198
+35	7185	7678903566755748	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6488840bc14a2a20
+15	8011	7678903573137030	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	c1327e0e910eb137
+6000	8011	7678903570177828	D:/Unity/Soulbound/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/06vn633y/obj/arm64-v8a/libswappywrapper.so	ecd7969d619683be
+4638	11994	7678903614604742	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	659497ab0a4cf5b0
+4525	12651	7678903621036366	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	705e40aff9ef1600
+12651	12830	7678903623391279	D:/Unity/Soulbound/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/06vn633y/obj/arm64-v8a/libgame.so	b69e15d62561a87f
