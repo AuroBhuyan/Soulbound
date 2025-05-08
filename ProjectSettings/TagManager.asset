@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Ladder
   - MovingPlatform
+  - Trap
   layers:
   - Default
   - TransparentFX
